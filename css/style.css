@@ -1,0 +1,129 @@
+/*Fonts*/
+
+/* roboto-slab-300 - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+        url('../fonts/roboto-slab-v24-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-slab-v24-latin-300.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+    font-family: 'Intro Demo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Intro Demo'), url('/fonts/IntroDemo-BlackCAPS.otf') format('woff');
+}
+
+
+/*Fonts*/
+
+html {
+    background-color: white;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+/*Header styles*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin: 5vh 5vw 0 5vw;
+}
+
+.button {
+    background-color: #5222D0;
+    color: white;
+    border-radius: 100px;
+    border: 0px;
+    font-family: 'Intro Demo', sans-serif;
+}
+
+.button_cart {
+    font-size: 1.3rem;
+    padding: 1.5vh 1.5vw;
+}
+
+.button_icon {
+    width: 2vh;
+}
+
+/*Header styles*/
+
+/*Main styles*/
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7.5vw;
+    margin-top: 4vh;
+}
+
+.title {
+    font-family: 'Intro Demo', sans-serif;
+    font-size: 6rem;
+    line-height: 72px;
+}
+
+.introduction_title {
+    max-width: 542px;
+}
+
+.description {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 2rem;
+}
+
+.introduction_description {
+    max-width: 487px;
+}
+
+.button_buy {
+    display: flex;
+    font-size: 3rem;
+    padding: 1.5vh 1.5vw;
+}
+
+.button_icon_buy {
+    padding-left: 0.5vw;
+}
+
+.nav {
+    margin-top: 18rem;
+}
+
+.nav_menu {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.nav_item {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 2rem;
+    color: #5222D0;
+    margin-right: 3.4rem;
+}
+
+.main {
+    display: flex;
+}
+
+.background {
+    margin-left: 7rem;
+}
+
+/*Main styles*/

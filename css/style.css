@@ -63,7 +63,7 @@ html {
 
 /*Header styles*/
 
-/*Main styles*/
+/*Main styles 1*/
 
 .introduction {
     display: flex;
@@ -103,6 +103,7 @@ html {
 
 .nav {
     margin-top: 18rem;
+    margin-bottom: 8rem;
 }
 
 .nav_menu {
@@ -126,4 +127,68 @@ html {
     margin-left: 7rem;
 }
 
-/*Main styles*/
+/*Main styles 1*/
+
+/*Main styles 2*/
+
+.features {
+    margin-left: 7.5vw;
+    margin-top: 4vh;
+}
+
+.features__block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features__post {
+    display: flex;
+    flex-direction: column;
+    margin-right: 7rem;
+}
+
+.title_features {
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+
+.features_description {
+    max-width: 365px;
+    margin-top: 0px;
+}
+
+.subscription {
+    background-color: #EC615B;
+    margin-top: 2.5rem;
+}
+
+.title_subscription {
+    color: white;
+    font-size: 3rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 2rem;
+}
+
+.subscription_description {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    width: 323px;
+    height: 50px;
+    margin: 0 2rem 2rem 2rem;
+    padding-left: 1.4rem;
+}
+
+.button_subsription {
+    height: 38px;
+    margin-left: 1.8rem;
+    margin-right: 22.1rem;
+    margin-bottom: 5.5rem;
+    font-size: 1.3rem;
+}
+
+.nav_item_2 {
+    color: black;
+}
